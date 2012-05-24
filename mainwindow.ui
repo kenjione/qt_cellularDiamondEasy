@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>835</width>
-    <height>562</height>
+    <width>841</width>
+    <height>578</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -400,6 +400,16 @@
       </item>
      </layout>
     </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>state_legend.png</pixmap>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -407,7 +417,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>835</width>
+     <width>841</width>
      <height>23</height>
     </rect>
    </property>
@@ -492,8 +502,8 @@
    <slot>prevFrame()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>742</x>
-     <y>124</y>
+     <x>828</x>
+     <y>132</y>
     </hint>
     <hint type="destinationlabel">
      <x>576</x>
@@ -508,8 +518,8 @@
    <slot>gotoFrame(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>631</x>
-     <y>155</y>
+     <x>712</x>
+     <y>166</y>
     </hint>
     <hint type="destinationlabel">
      <x>569</x>
@@ -528,8 +538,8 @@
      <y>161</y>
     </hint>
     <hint type="destinationlabel">
-     <x>630</x>
-     <y>151</y>
+     <x>712</x>
+     <y>166</y>
     </hint>
    </hints>
   </connection>
@@ -604,8 +614,8 @@
    <slot>setFPSIsDisplayed(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>654</x>
-     <y>349</y>
+     <x>705</x>
+     <y>382</y>
     </hint>
     <hint type="destinationlabel">
      <x>597</x>
@@ -620,8 +630,8 @@
    <slot>setGridIsDrawn(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>708</x>
-     <y>346</y>
+     <x>767</x>
+     <y>382</y>
     </hint>
     <hint type="destinationlabel">
      <x>597</x>
@@ -652,8 +662,8 @@
    <slot>startAnimation()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>645</x>
-     <y>215</y>
+     <x>737</x>
+     <y>228</y>
     </hint>
     <hint type="destinationlabel">
      <x>597</x>
@@ -668,8 +678,8 @@
    <slot>stopAnimation()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>735</x>
-     <y>213</y>
+     <x>828</x>
+     <y>228</y>
     </hint>
     <hint type="destinationlabel">
      <x>597</x>
@@ -684,8 +694,8 @@
    <slot>setAnimationPeriod(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>775</x>
-     <y>256</y>
+     <x>828</x>
+     <y>294</y>
     </hint>
     <hint type="destinationlabel">
      <x>597</x>
@@ -700,8 +710,8 @@
    <slot>setShowText(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>743</x>
-     <y>357</y>
+     <x>828</x>
+     <y>382</y>
     </hint>
     <hint type="destinationlabel">
      <x>597</x>
@@ -716,8 +726,8 @@
    <slot>setDrawingMode(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>729</x>
-     <y>332</y>
+     <x>828</x>
+     <y>353</y>
     </hint>
     <hint type="destinationlabel">
      <x>590</x>
@@ -732,8 +742,8 @@
    <slot>setColorWChanged(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>685</x>
-     <y>380</y>
+     <x>737</x>
+     <y>416</y>
     </hint>
     <hint type="destinationlabel">
      <x>676</x>
@@ -748,8 +758,8 @@
    <slot>setColorClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>747</x>
-     <y>387</y>
+     <x>828</x>
+     <y>417</y>
     </hint>
     <hint type="destinationlabel">
      <x>745</x>
@@ -764,8 +774,8 @@
    <slot>startReverseAnimation()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>689</x>
-     <y>223</y>
+     <x>829</x>
+     <y>262</y>
     </hint>
     <hint type="destinationlabel">
      <x>280</x>

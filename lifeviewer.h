@@ -84,7 +84,7 @@ public slots:
     void loadData();
     void setShowText( bool textShown )
     {
-    	textShown_ = textShown;
+        textShown_ = textShown;
     	repaint();
     }
     void setDrawingMode( int drawingMode )
